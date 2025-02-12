@@ -44,3 +44,4 @@ If you encounter any issues with this test suite, feel free to **contact me** or
 I will add all new contributors here. If you contribute, your name will be listed! 🏆
 
 - [@FloWindels](https://github.com/FloWindels)
+- [@NoamBouillet](https://github.com/NoamBouillet)
