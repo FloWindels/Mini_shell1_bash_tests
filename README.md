@@ -27,6 +27,8 @@ Then, run the test suite:
 ```
 ✅ The script will compare the output of your **Minishell1** with Bash and display the results.
 
+:rotating_light: If all your tests fail, it might mean that your prompt ($> ) is being included in the output file. To prevent this, ensure that you use isatty(STDOUT_FILENO) to check if the output is connected to a terminal, and avoid printing the prompt in non-interactive mode.
+
 ## 🏆 Contribution
 
 **Sharing is caring!** If you add new test cases, please share them with us. 🙌
