@@ -1,0 +1,8 @@
+/bin/ls
+/bin/whoami
+ls
+pwd
+echo "Hello, World!"
+whoami
+this_command_dont_exit
+./testing_file/segfault

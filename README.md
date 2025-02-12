@@ -12,6 +12,7 @@ There are **two files** in this repository:
 - **📄 test_cases.txt** → Where you put all the test cases you want to run.
 
 - **🛠 run_tests.sh** → Executes the commands in ```test_cases.txt``` and checks if they work correctly.
+:rotating_light: Don't forget to change the path of your binary.
 
 ## ➕ Adding New Tests
 
@@ -26,8 +27,9 @@ Then, run the test suite:
 ./run_tests.sh
 ```
 ✅ The script will compare the output of your **Minishell1** with Bash and display the results.
+✅ The ```testing_file``` folder is available for storing specific test files, such as those designed to trigger a **segmentation fault** to test how your shell handles crashes.
 
-:rotating_light: If all your tests fail, it might mean that your prompt ($> ) is being included in the output file. To prevent this, ensure that you use isatty(STDOUT_FILENO) to check if the output is connected to a terminal, and avoid printing the prompt in non-interactive mode.
+:rotating_light: **If all your tests fail**, it might mean that your prompt (```$> ```) is being included in the output file. To prevent this, ensure that you use ```isatty(STDOUT_FILENO)``` to check if the output is connected to a terminal, and avoid printing the prompt in non-interactive mode.
 
 ## 🏆 Contribution
 

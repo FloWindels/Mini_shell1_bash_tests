@@ -1,5 +1,0 @@
-/bin/ls
-ls
-pwd
-echo "Hello, World!"
-whoami
